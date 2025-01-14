@@ -41,6 +41,7 @@ class fast_pipeline():
         #generation_config["initial_prompt"] = '추론해야 할 음성은 약 10미터 거리에서 약간의 화이트 노이즈가 있는 국립 극장 환경에서 녹음된 음성입니다. 음성에는 ‘테러’, ‘폭발’, ‘북한’, ‘타격’, ‘전쟁’, ‘도발’, ‘공습’, ‘폭음’, ‘총성’, ‘지뢰’, ‘폭탄’, ‘위협’과 같은 키워드를 포함한 위협적인 문장이 발화됩니다. 화자의 어조는 긴장감이 감돌며, 이러한 용어들이 암시하는 잠재적 위험을 전달하고 있습니다. 이러한 조건을 바탕으로 음성인식을 잘 수행해 주세요.'
         #generation_config["initial_prompt"] = '10미터 거리에서 국립극장의 약간의 화이트 노이즈가 있는 환경에서 녹음된 음성입니다. 음성에는 ‘테러’, ‘폭발’, ‘북한’, ‘전쟁’, ‘도발’, ‘공습’, ‘총성’, ‘지뢰’, ‘폭탄’등과 같은 키워드를 포함한 위협적인 문장이 발화됩니다. 화자의 어조는 긴장감이 감돌며, 이러한 용어들이 암시하는 잠재적 위험을 전달하고 있습니다.'
         #generation_config["initial_prompt"] = '10미터 거리의 약간의 화이트 노이즈가 있는 국립 극장 환경에서 ‘테러’, ‘폭발’, ‘북한’, ‘타격’, ‘전쟁’, ‘도발’, ‘공습’, ‘폭음’, ‘총성’, ‘지뢰’, ‘폭탄’ 등의 위협적인 키워드를 포함한 문장이 발화된 음성입니다.'
+        #generation_config["initial_prompt"] = '10미터 거리의 약간의 화이트 노이즈가 있는 국립 극장 환경에서 위협적인 키워드를 포함한 문장이 발화된 음성입니다.'
         
         # Not to use power augmentation, uncomment below.
         # segments, _ = self.model.transcribe(filepath, beam_size=1, without_timestamps=False, **generation_config)
@@ -75,8 +76,8 @@ class fast_pipeline():
             #print('*' * 20)
             #print(waveform.shape)
             
-            #gain = 10
-            #waveform = waveform * gain
+            gain = 10
+            waveform = waveform * gain
 
         torchaudio.save("test_audio.wav", waveform, 16000)
         filepath = "test_audio.wav"

@@ -1,4 +1,31 @@
-# Gradio demo for Whisper ASR
+<div align="center"><h1>&nbsp;Far-Field Automatic Speech Recognition(ASR)</h1></div>
+---
+
+## Introduction
+
+Introduction
+
+<div align="center">
+  <picture>
+  <img src="assets/natural-sample3.gif" width="80%">
+  </picture>
+  <br>
+  <div align="center" width="80%">
+  <em>Far-field ASR model result(w/ Audio file recorded from 10 meters away).</em>
+  </div>
+  <br>
+</div>
+
+## Contents
+- [Introduction](#Introduction)
+- [Contents](#contents)
+- [Installation](#installation)
+- [Preparation](#preparation)
+  - [Prepare faster-whisper models](#prepare-faster-whisper-models)
+- [Run](#run)
+  - [Run asr server](#run-asr-server)
+  - [Run gradio server](#run-gradio-server)
+
 ## Installation
 ```bash
 cd /path/to/gradio_asr/tools
