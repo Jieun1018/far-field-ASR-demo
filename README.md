@@ -1,9 +1,10 @@
 <div align="center"><h1>&nbsp;Far-Field Automatic Speech Recognition(ASR)</h1></div>
 
+This repository contains code for a far-field speech recognition demo based on the Whisper model.
+
 ## Introduction
 
-This repository releases code to perform far-field speech recognition based on the Whisper model.
-We don't just use the Whisper model, we provide far-field environmental information as prompts to improve speech recognition performance.
+We provide far-field environmental information as prompts to improve speech recognition performance.
 
 <div align="center">
   <picture>
@@ -16,7 +17,7 @@ We don't just use the Whisper model, we provide far-field environmental informat
   <br>
 </div>
 
-If you're interested in learning the prompt-based Whisper model, check out [this GitHub](https://github.com/Jieun1018/prompt-whisper-2.git).
+If you're interested in training the prompt-based Whisper model, check out [this GitHub](https://github.com/Jieun1018/prompt-whisper-2.git).
 
 Check out the examples/sample_audio folder for the sample audio featured in the gif below. The audio file was recorded from 10 meters away.
 
