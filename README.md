@@ -27,7 +27,7 @@ Check out the examples/sample_audio folder for the sample audio featured in the 
   </picture>
   <br>
   <div align="center" width="80%">
-  <em>Far-field ASR model result(w/ Audio file recorded from 10 meters away).</em>
+  <em><b>Far-field ASR model</b> result(w/ Audio file recorded from 10 meters away).</em>
   </div>
   <br>
 </div>
@@ -38,7 +38,7 @@ Check out the examples/sample_audio folder for the sample audio featured in the 
   </picture>
   <br>
   <div align="center" width="80%">
-  <em>Vanilla Whisper model result(w/ Audio file recorded from 10 meters away).</em>
+  <em><b>Vanilla Whisper model</b> result(w/ Audio file recorded from 10 meters away).</em>
   </div>
   <br>
 </div>
