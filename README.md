@@ -1,4 +1,4 @@
-<img src="assets/asml.png" alt="ASML Lab" width="100" align="left"><div align="center"><h1>&nbsp;Far-Field Automatic Speech Recognition(ASR)</h1></div>
+<img src="assets/asml.png" alt="ASML Lab" width="95" align="left"><div align="center"><h1>&nbsp;Far-Field Automatic Speech Recognition(ASR)</h1><br></div>
 
 This repository contains code for a far-field speech recognition demo based on the Whisper model.
 
@@ -17,7 +17,7 @@ We provide far-field environmental information as prompts to improve speech reco
   <br>
 </div>
 
-If you're interested in training the prompt-based Whisper model, check out [this GitHub](https://github.com/Jieun1018/prompt-whisper-2.git).
+If you're interested in training the prompt-based far-field Whisper model, check out [this GitHub](https://github.com/Jieun1018/prompt-whisper-2.git).
 
 Check out the examples/sample_audio folder for the sample audio featured in the gif below. The audio file was recorded from 10 meters away.
 
@@ -32,6 +32,32 @@ Check out the examples/sample_audio folder for the sample audio featured in the 
   <br>
 </div>
 
+<div align="center">
+  <picture>
+  <img src="assets/vanilla-sample3.gif" width="80%">
+  </picture>
+  <br>
+  <div align="center" width="80%">
+  <em>Vanilla Whisper model result(w/ Audio file recorded from 10 meters away).</em>
+  </div>
+  <br>
+</div>
+
+---
+
+<div align="center">
+  <picture>
+  <img src="assets/result-compare.png" width="80%">
+  </picture>
+  <br>
+  <div align="center" width="80%">
+  <em>Captured demo results of Vanilla model and ours.</em>
+  </div>
+  <br>
+</div>
+
+---
+
 ## Contents
 - [Introduction](#Introduction)
 - [Contents](#contents)
@@ -41,6 +67,7 @@ Check out the examples/sample_audio folder for the sample audio featured in the 
 - [Run](#run)
   - [Run asr server](#run-asr-server)
   - [Run gradio server](#run-gradio-server)
+- [Acknowledgements](#Acknowledgements)
 
 ## Installation
 ```bash
@@ -78,3 +105,6 @@ cd /path/to/gradio_asr
 . tools/activate_python.sh
 python gradio_server.py
 ```
+
+## Acknowledgements
+Model training codebase is influenced by [Clairaudience github](https://github.com/mtkresearch/clairaudience).
