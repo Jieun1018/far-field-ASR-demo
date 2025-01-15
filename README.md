@@ -1,4 +1,4 @@
-<div align="center"><h1>&nbsp;Far-Field Automatic Speech Recognition(ASR)</h1></div>
+<img src="assets/asml.png" alt="ASML Lab" width="100" align="left"><div align="center"><h1>&nbsp;Far-Field Automatic Speech Recognition(ASR)</h1></div>
 
 This repository contains code for a far-field speech recognition demo based on the Whisper model.
 
