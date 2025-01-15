@@ -51,7 +51,7 @@ Check out the examples/sample_audio folder for the sample audio featured in the 
   </picture>
   <br>
   <div align="center" width="80%">
-  <em>Captured demo results of Vanilla model and ours.</em>
+  <em>Captured demo result of Vanilla model and ours.</em>
   </div>
   <br>
 </div>
