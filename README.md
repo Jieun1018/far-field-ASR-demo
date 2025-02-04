@@ -108,7 +108,7 @@ python gradio_server.py
 ```
 
 ## Demo video
-(TBD)
+[Demo link](https://youtu.be/Vea0JSwTrwA?si=udgZKrA82fxzThOV)
 
 ## Acknowledgements
 Model training codebase is influenced by [Clairaudience github](https://github.com/mtkresearch/clairaudience).
